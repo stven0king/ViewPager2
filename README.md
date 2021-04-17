@@ -1,3 +1,16 @@
+##  上滑吸顶+标题页面左右滑动+横滑和竖滑列表+标题页面数据和数量更新
+
+### 上滑吸顶
+`CoordinatorLayout`+`AppBarLayout`+`CollapsingToolbarLayout`
+### 左右滑动
+`ViewPager2`+`TabLayout`+`Fragment`
+### 横滑和竖滑列表
+`RecycleView`+`NestedScrollableHost`
+### 标题页面数据和数量
+`TabLayoutMediator`+声明周期检测+缓存优化
+
+<img src="screenshots/viewpage2_tabLayout_nestedscroll.gif" width="30%" />
+
 ViewPager2 samples
 ==================
 This sample shows how to use [ViewPager2](https://developer.android.com/reference/androidx/viewpager2/widget/ViewPager2)
